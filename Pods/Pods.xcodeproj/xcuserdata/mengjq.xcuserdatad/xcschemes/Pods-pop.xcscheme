@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0B4932061914B13300A508E4"
-               BuildableName = "CountDemo.app"
-               BlueprintName = "CountDemo"
-               ReferencedContainer = "container:CountDemo.xcodeproj">
+               BlueprintIdentifier = "DDF0682023C3469AB186BD30"
+               BuildableName = "libPods-pop.a"
+               BlueprintName = "Pods-pop"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0B4932271914B13300A508E4"
-               BuildableName = "CountDemoTests.xctest"
-               BlueprintName = "CountDemoTests"
-               ReferencedContainer = "container:CountDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0B4932061914B13300A508E4"
-            BuildableName = "CountDemo.app"
-            BlueprintName = "CountDemo"
-            ReferencedContainer = "container:CountDemo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -58,15 +39,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0B4932061914B13300A508E4"
-            BuildableName = "CountDemo.app"
-            BlueprintName = "CountDemo"
-            ReferencedContainer = "container:CountDemo.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -76,15 +48,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0B4932061914B13300A508E4"
-            BuildableName = "CountDemo.app"
-            BlueprintName = "CountDemo"
-            ReferencedContainer = "container:CountDemo.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -20,7 +20,11 @@
 		0B49322B1914B13300A508E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B49320A1914B13300A508E4 /* Foundation.framework */; };
 		0B49322C1914B13300A508E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B49320E1914B13300A508E4 /* UIKit.framework */; };
 		0B4932341914B13300A508E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B4932321914B13300A508E4 /* InfoPlist.strings */; };
-		0B4932361914B13300A508E4 /* CountDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4932351914B13300A508E4 /* CountDemoTests.m */; };
+		0B4932361914B13300A508E4 /* CountDemoSettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4932351914B13300A508E4 /* CountDemoSettingsTests.m */; };
+		0B4932411914B2B100A508E4 /* CoreCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4932401914B2B100A508E4 /* CoreCalculate.m */; };
+		0B4932431914C49F00A508E4 /* CountDemoCalculateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4932421914C49F00A508E4 /* CountDemoCalculateTests.m */; };
+		0B4932461914F24200A508E4 /* NumLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4932451914F24200A508E4 /* NumLabel.m */; };
+		2341252BBF3F4E4CAD14FC17 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DD9E3DAAC14597A480CE2A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +56,14 @@
 		0B4932291914B13300A508E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0B4932311914B13300A508E4 /* CountDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CountDemoTests-Info.plist"; sourceTree = "<group>"; };
 		0B4932331914B13300A508E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0B4932351914B13300A508E4 /* CountDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDemoTests.m; sourceTree = "<group>"; };
+		0B4932351914B13300A508E4 /* CountDemoSettingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDemoSettingsTests.m; sourceTree = "<group>"; };
+		0B49323F1914B2B100A508E4 /* CoreCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreCalculate.h; sourceTree = "<group>"; };
+		0B4932401914B2B100A508E4 /* CoreCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreCalculate.m; sourceTree = "<group>"; };
+		0B4932421914C49F00A508E4 /* CountDemoCalculateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDemoCalculateTests.m; sourceTree = "<group>"; };
+		0B4932441914F24200A508E4 /* NumLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumLabel.h; sourceTree = "<group>"; };
+		0B4932451914F24200A508E4 /* NumLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumLabel.m; sourceTree = "<group>"; };
+		88DD9E3DAAC14597A480CE2A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA2B80EF03447AFA6F1E6D6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,7 @@
 				0B49320D1914B13300A508E4 /* CoreGraphics.framework in Frameworks */,
 				0B49320F1914B13300A508E4 /* UIKit.framework in Frameworks */,
 				0B49320B1914B13300A508E4 /* Foundation.framework in Frameworks */,
+				2341252BBF3F4E4CAD14FC17 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +98,7 @@
 				0B49322F1914B13300A508E4 /* CountDemoTests */,
 				0B4932091914B13300A508E4 /* Frameworks */,
 				0B4932081914B13300A508E4 /* Products */,
+				8BA2B80EF03447AFA6F1E6D6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +118,7 @@
 				0B49320C1914B13300A508E4 /* CoreGraphics.framework */,
 				0B49320E1914B13300A508E4 /* UIKit.framework */,
 				0B4932291914B13300A508E4 /* XCTest.framework */,
+				88DD9E3DAAC14597A480CE2A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +131,10 @@
 				0B49321C1914B13300A508E4 /* Main.storyboard */,
 				0B49321F1914B13300A508E4 /* ViewController.h */,
 				0B4932201914B13300A508E4 /* ViewController.m */,
+				0B4932441914F24200A508E4 /* NumLabel.h */,
+				0B4932451914F24200A508E4 /* NumLabel.m */,
+				0B49323F1914B2B100A508E4 /* CoreCalculate.h */,
+				0B4932401914B2B100A508E4 /* CoreCalculate.m */,
 				0B4932221914B13300A508E4 /* Images.xcassets */,
 				0B4932111914B13300A508E4 /* Supporting Files */,
 			);
@@ -137,7 +155,8 @@
 		0B49322F1914B13300A508E4 /* CountDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B4932351914B13300A508E4 /* CountDemoTests.m */,
+				0B4932421914C49F00A508E4 /* CountDemoCalculateTests.m */,
+				0B4932351914B13300A508E4 /* CountDemoSettingsTests.m */,
 				0B4932301914B13300A508E4 /* Supporting Files */,
 			);
 			path = CountDemoTests;
@@ -159,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B4932391914B13300A508E4 /* Build configuration list for PBXNativeTarget "CountDemo" */;
 			buildPhases = (
+				6B3D27B9CBBC4FF7B9A04687 /* Check Pods Manifest.lock */,
 				0B4932031914B13300A508E4 /* Sources */,
 				0B4932041914B13300A508E4 /* Frameworks */,
 				0B4932051914B13300A508E4 /* Resources */,
+				3F1F0EA9F4294D43A2708DEF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,12 +265,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F1F0EA9F4294D43A2708DEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3D27B9CBBC4FF7B9A04687 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B4932031914B13300A508E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0B4932211914B13300A508E4 /* ViewController.m in Sources */,
+				0B4932411914B2B100A508E4 /* CoreCalculate.m in Sources */,
+				0B4932461914F24200A508E4 /* NumLabel.m in Sources */,
 				0B49321B1914B13300A508E4 /* AppDelegate.m in Sources */,
 				0B4932171914B13300A508E4 /* main.m in Sources */,
 			);
@@ -259,7 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4932361914B13300A508E4 /* CountDemoTests.m in Sources */,
+				0B4932361914B13300A508E4 /* CountDemoSettingsTests.m in Sources */,
+				0B4932431914C49F00A508E4 /* CountDemoCalculateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,12 +430,14 @@
 		};
 		0B49323A1914B13300A508E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA2B80EF03447AFA6F1E6D6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CountDemo/CountDemo-Prefix.pch";
 				INFOPLIST_FILE = "CountDemo/CountDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,12 +445,14 @@
 		};
 		0B49323B1914B13300A508E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA2B80EF03447AFA6F1E6D6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CountDemo/CountDemo-Prefix.pch";
 				INFOPLIST_FILE = "CountDemo/CountDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +517,7 @@
 				0B49323B1914B13300A508E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B49323C1914B13300A508E4 /* Build configuration list for PBXNativeTarget "CountDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +526,7 @@
 				0B49323E1914B13300A508E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
